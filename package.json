@@ -1,0 +1,43 @@
+{
+  "name": "serverless_auth_template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "webpack:prod": "webpack --mode=production",
+    "webpack:dev": "webpack --mode=development",
+    "webpack:serve": "npx webpack-serve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "amazon-cognito-auth-js": "^1.2.4",
+    "amazon-cognito-identity-js": "^2.0.23",
+    "amazon-cognito-js": "^1.1.0",
+    "aws-amplify": "^1.0.8",
+    "aws-api-gateway-client": "^0.2.16",
+    "aws-sdk": "^2.307.0",
+    "axios": "^0.18.0",
+    "connect-history-api-fallback": "^1.5.0",
+    "google-client-api": "^1.0.4",
+    "koa-connect": "^2.0.1",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vue-template-compiler": "^2.5.17",
+    "vuex": "^3.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "babel-loader": "^8.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.0",
+    "vue-loader": "^15.4.1",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "webpack-serve": "^2.0.2"
+  }
+}

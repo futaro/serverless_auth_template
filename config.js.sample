@@ -1,0 +1,20 @@
+const aws = {
+  Region        : 'ap-northeast-1',
+  IdentityPoolId: 'ap-northeast-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx',
+  UserPoolId    : 'ap-northeast-1_xxxxxxxxx',
+  ClientId      : 'xxxxxxxxxxxxxxxxxxxxxxxxxxx',
+  AppWebDomain  : 'xxxxxxxxxxxxxxxx.auth.ap-northeast-1.amazoncognito.com',
+  SignInUri     : 'http://localhost:5656/signin/callback',
+  SignOutUri    : 'http://localhost:5656/',
+  Scopes        : ['profile', 'email', 'openid', 'aws.cognito.signin.user.admin', 'phone']
+}
+
+const gateway = {
+  InvokeUrl        : 'http://localhost:3000',
+  Region           : 'localhost',
+  Stage            : '',
+  systemClockOffset: 0,
+  retries          : 0
+}
+
+export {aws, gateway}
